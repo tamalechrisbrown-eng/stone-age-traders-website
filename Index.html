@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stone Age Traders - Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:system-ui;background:#f1f5f9;color:#0f172a}
+.top{background:#0f172a;color:#fff;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.top b{color:#facc15}.wrap{max-width:1100px;margin:auto;padding:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px} @media(min-width:800px){.grid{grid-template-columns:1fr 1fr 1fr 1fr}}
+.card{background:#fff;border-radius:18px;padding:16px;box-shadow:0 6px 20px rgba(0,0,0,.06);border:1px solid #e2e8f0}
+.card small{color:#64748b;font-size:11px;font-weight:700}.card h2{font-size:22px;margin:6px 0}.card h3{font-size:14px}
+.green{color:#16a34a;font-weight:800}.red{color:#dc2626}
+.btn{width:100%;border:none;padding:12px;border-radius:12px;font-weight:900;margin-top:10px;cursor:pointer}
+.btn-dark{background:#0f172a;color:#fff}.btn-yellow{background:#facc15;color:#111}.btn-green{background:#16a34a;color:#fff}
+.table-box{background:#fff;border-radius:18px;margin-top:14px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,.06)}
+table{width:100%;border-collapse:collapse} th,td{padding:12px 10px;font-size:13px;text-align:left;border-bottom:1px solid #f1f5f9} th{background:#f8fafc;color:#64748b;font-size:10px}
+.badge{padding:4px 8px;border-radius:99px;font-size:10px;font-weight:900} .b-run{background:#dcfce7;color:#16a34a} .b-close{background:#f1f5f9;color:#64748b}
+.alert{background:linear-gradient(135deg,#facc15,#fbbf24);border-radius:14px;padding:12px;margin-bottom:12px;font-weight:800;font-size:12px;text-align:center}
+</style></head><body>
+<div class="top"><div><b>STONE AGE</b> TRADERS</div><div style="font-size:11px">ID: 1792650370 • Verified</div></div>
+
+<div class="wrap">
+<div class="alert">📞 Deposits/Withdrawals: 0761 291972 | WhatsApp Support: 0747 550170</div>
+
+<div class="grid">
+<div class="card"><small>ACCOUNT BALANCE</small><h2>$ 2,450.00</h2><small class="green">↑ + $120 today</small><button class="btn btn-yellow" onclick="window.open('tel:0761291972')">Deposit: Call 0761291972</button><button class="btn btn-dark" onclick="window.open('https://wa.me/256747550170?text=Deposit%20Stone%20Age%20Traders')">WhatsApp 0747 550170</button></div>
+
+<div class="card"><small>TOTAL PROFIT</small><h2>$ 856.30</h2><small class="green">↑ +12.5% this week</small><button class="btn btn-green" onclick="window.open('tel:0761291972')">Withdraw: Call 0761291972</button><button class="btn btn-dark" onclick="window.open('https://wa.me/256747550170?text=Withdraw%20Stone%20Age%20Traders')">WhatsApp 0747 550170</button></div>
+
+<div class="card"><small>ACTIVE TRADES</small><h2>3 Running</h2><small>BTC/USD, GOLD, EUR/USD</small><button class="btn btn-dark" onclick="alert('Trades Running: BTC +$45, GOLD +$32')">View Trades</button></div>
+
+<div class="card"><small>REFERRAL BONUS</small><h2>$ 150.00</h2><small>Code: PQPAJ • 12 invites</small><button class="btn btn-yellow" onclick="navigator.clipboard.writeText('https://stoneage.tiiny.site/dashboard.html?v=1792650370&code=PQPAJ');alert('Link Copied!')">Copy Invite Link</button><button class="btn btn-dark" onclick="window.open('https://wa.me/256747550170?text=My%20Referral%20Code%20PQPAJ')">Share on WhatsApp</button></div>
+</div>
+
+<div class="grid" style="margin-top:14px">
+<div class="card"><small>DEPOSIT INFO</small><h3>Deposit Number: 0761291972</h3><p style="font-size:12px;margin-top:6px;color:#64748b">Call or send MoMo to 0761 291972. Send screenshot to WhatsApp 0747 550170 to confirm.</p><button class="btn btn-green" onclick="window.open('tel:0761291972')">📞 Call 0761291972 Now</button></div>
+<div class="card"><small>WITHDRAW INFO</small><h3>Withdraw Number: 0761291972</h3><p style="font-size:12px;margin-top:6px;color:#64748b">Withdrawals processed to 0761 291972. Contact WhatsApp 0747 550170 for support.</p><button class="btn btn-green" onclick="window.open('tel:0761291972')">💵 Withdraw to 0761291972</button></div>
+</div>
+
+<div class="table-box">
+<table>
+<tr><th>PAIR</th><th>TYPE</th><th>PROFIT</th><th>STATUS</th></tr>
+<tr><td>BTC/USD</td><td>Buy</td><td class="green">+ $45.20</td><td><span class="badge b-run">RUNNING</span></td></tr>
+<tr><td>GOLD</td><td>Sell</td><td class="green">+ $32.10</td><td><span class="badge b-run">RUNNING</span></td></tr>
+<tr><td>EUR/USD</td><td>Buy</td><td class="red">- $5.00</td><td><span class="badge b-run">RUNNING</span></td></tr>
+<tr><td>BTC/USD</td><td>Sell</td><td class="green">+ $120.00</td><td><span class="badge b-close">CLOSED</span></td></tr>
+<tr><td>ETH/USD</td><td>Buy</td><td class="green">+ $85.00</td><td><span class="badge b-close">CLOSED</span></td></tr>
+</table>
+</div>
+
+<div class="card" style="margin-top:14px;text-align:center"><small>YOUR INV
